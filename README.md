@@ -1,4 +1,4 @@
-Flutter application with Firebase
+Flutter application with Firebase \n
 User Stories: 
         A login and register screen exists with email and password fields.
         An authentication voiding mechanism must be implemented.
