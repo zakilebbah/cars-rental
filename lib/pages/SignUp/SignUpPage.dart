@@ -279,7 +279,7 @@ class _SignUpPageState extends State<SignUpPage> {
                             onTap: () {
                               Navigator.of(context).pushReplacement(
                                 MaterialPageRoute(
-                                    builder: (context) => const logInPage()),
+                                    builder: (context) => const LogInPage()),
                               );
                             },
                           ),

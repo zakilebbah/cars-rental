@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                     if (mounted) {
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
-                            builder: (context) => const logInPage()),
+                            builder: (context) => const LogInPage()),
                       );
                     }
                   } catch (e) {}

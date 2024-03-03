@@ -8,14 +8,14 @@ import 'package:flutter/material.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:provider/provider.dart';
 
-class logInPage extends StatefulWidget {
-  const logInPage({super.key});
+class LogInPage extends StatefulWidget {
+  const LogInPage({super.key});
 
   @override
-  State<logInPage> createState() => _logInPageState();
+  State<LogInPage> createState() => _LogInPageState();
 }
 
-class _logInPageState extends State<logInPage> {
+class _LogInPageState extends State<LogInPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
@@ -220,7 +220,7 @@ class _logInPageState extends State<logInPage> {
                                   Navigator.of(context).pushReplacement(
                                       MaterialPageRoute(
                                           builder: (BuildContext context) =>
-                                              SignUpPage()));
+                                              const SignUpPage()));
                                 },
                               ),
                             ],

@@ -1,10 +1,10 @@
 class UserModel {
   final String? id;
   final String? email;
-  final String? Name;
+  final String? name;
   UserModel({
     this.id,
     this.email,
-    this.Name,
+    this.name,
   });
 }
