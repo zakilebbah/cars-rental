@@ -1,4 +1,5 @@
 # Flutter Car renting application with Firebase as the backend.
+## APK file: https://drive.google.com/file/d/1MiOmpSKylIUmiUL9su2uOMbNXW5nCi80/view?usp=sharing
 ## Functionalities:
        - LogIn and signUp page with Form validation and Firebase authentification.
        - Authentification with fingerprint scanner if the user is already logged in.
